@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  margin: 0;
+}
+.t3MainContainer {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #6682a9;
+}
+.t3Container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 40px;
+  min-height: 65vh;
+  width: 22vw;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.t3Container p {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #876bab;
+  width: 100%;
+  /* padding: 20px; */
+  margin-top: 30px;
+  color: whitesmoke;
+}
+.t3Container1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+.t3Container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 40%;
+  min-height: 40%;
+}
+.t3Container2 .todo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  gap: 10px;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #876bab;
+}
+h5 {
+  font-size: 14px !important ;
+  font-weight: 500;
+}
